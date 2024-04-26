@@ -1,0 +1,22 @@
+prefix: "&7[&8Cinema&7]"
+
+unknown_error: "&cAn unknown error has occured, check console for more details!"
+
+commands:
+  other:
+    unblind-success: "&aSuccessfully unblinded &f{target}"
+    unblind-fail: "&f{target} &cdoes not have blindness effect"
+    blind-success: "&aSuccessfully blinded &f{target}"
+    incorrect-blindness: "&f{target} &cdoes not have infinite blindness"
+    no-permission: "&cYou do not have permission to run this command!"
+    show-all-success: "&f{target} &acan now see all players!"
+    hide-all-success: "&f{target} &ccan no longer see players"
+  self:
+    unblind-success: "&aSuccessfully removed your blindness"
+    unblind-fail: "&cYou do not have the blindness effect"
+    blind-success: "&aSuccessfully gave you blindness"
+    incorrect-blindness: "&cYou do not have infinite blindness"
+    console-use: "&cConsole cannot use the command this way"
+    no-permission: "&cYou do not have permission to run this command"
+    show-all-success: "&aYou can now see all players!"
+    hide-all-success: "&cYou can no longer see players"

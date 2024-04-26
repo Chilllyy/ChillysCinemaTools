@@ -1,0 +1,21 @@
+name: ChillysCinemaTools
+version: 1.0-SNAPSHOT
+author: Chilly_Willy
+main: me.chillywilly.Main
+api-version: 1.20
+commands:
+  hideplayers:
+    permission: chillycinema.hideplayer
+    description: Hides all players from your view
+  unhideplayers:
+    aliases: showplayers
+    permission: chillycinema.hideplayer
+    description: Unhides all players
+  blindness:
+    aliases: blind
+    permission: chillycinema.blind
+    description: Gives you infinite blindndess, for your viewing pleasure
+  unblindness:
+    aliases: unblind
+    permission: chillycinema.blind
+    description: Removes your infinite blindndess
